@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="378" viewBox="0 0 900 378" fill="none" role="img" aria-label="Language proficiency">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171b2e"/>
+      <stop offset="100%" stop-color="#12151f"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="900" height="360" rx="14"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#c)">
+    <rect width="900" height="360" fill="url(#card)"/>
+    <rect width="900" height="2" fill="#8b5cf6" opacity="0.7"/>
+
+    <text x="34" y="46" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="19" font-weight="700" fill="#e2e8f0" letter-spacing="0.6">Languages</text>
+    <text x="866" y="46" text-anchor="end" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="12" fill="#64748b" letter-spacing="1.6">PROFICIENCY</text>
+
+    <g font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600">
+
+      <!-- JavaScript 98 -->
+      <g transform="translate(34,78)">
+        <circle cx="6" cy="-4" r="5" fill="#F7DF1E"/>
+        <text x="22" y="0" fill="#cbd5e1">JavaScript</text>
+        <text x="832" y="0" text-anchor="end" fill="#F7DF1E" font-size="13.5">98%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#F7DF1E">
+          <animate attributeName="width" from="0" to="815" dur="1.5s" begin="0.1s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+        <rect x="0" y="10" width="90" height="9" rx="4.5" fill="url(#shine)" opacity="0">
+          <animate attributeName="opacity" values="0;1;0" dur="1.4s" begin="1.6s" repeatCount="indefinite"/>
+          <animate attributeName="x" from="-90" to="815" dur="1.4s" begin="1.6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <!-- TypeScript 97 -->
+      <g transform="translate(34,122)">
+        <circle cx="6" cy="-4" r="5" fill="#3178C6"/>
+        <text x="22" y="0" fill="#cbd5e1">TypeScript</text>
+        <text x="832" y="0" text-anchor="end" fill="#3178C6" font-size="13.5">97%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#3178C6">
+          <animate attributeName="width" from="0" to="807" dur="1.5s" begin="0.2s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+      <!-- HTML 94 -->
+      <g transform="translate(34,166)">
+        <circle cx="6" cy="-4" r="5" fill="#E34F26"/>
+        <text x="22" y="0" fill="#cbd5e1">HTML</text>
+        <text x="832" y="0" text-anchor="end" fill="#E34F26" font-size="13.5">94%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#E34F26">
+          <animate attributeName="width" from="0" to="782" dur="1.5s" begin="0.3s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+      <!-- Java 91 -->
+      <g transform="translate(34,210)">
+        <circle cx="6" cy="-4" r="5" fill="#ED8B00"/>
+        <text x="22" y="0" fill="#cbd5e1">Java</text>
+        <text x="832" y="0" text-anchor="end" fill="#ED8B00" font-size="13.5">91%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#ED8B00">
+          <animate attributeName="width" from="0" to="757" dur="1.5s" begin="0.4s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+      <!-- Kotlin 84 -->
+      <g transform="translate(34,254)">
+        <circle cx="6" cy="-4" r="5" fill="#A97BFF"/>
+        <text x="22" y="0" fill="#cbd5e1">Kotlin</text>
+        <text x="832" y="0" text-anchor="end" fill="#A97BFF" font-size="13.5">84%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#A97BFF">
+          <animate attributeName="width" from="0" to="699" dur="1.5s" begin="0.5s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+      <!-- PHP 76 -->
+      <g transform="translate(34,298)">
+        <circle cx="6" cy="-4" r="5" fill="#8993BE"/>
+        <text x="22" y="0" fill="#cbd5e1">PHP</text>
+        <text x="832" y="0" text-anchor="end" fill="#8993BE" font-size="13.5">76%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#8993BE">
+          <animate attributeName="width" from="0" to="632" dur="1.5s" begin="0.6s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+      <!-- Lua 68 -->
+      <g transform="translate(34,342)">
+        <circle cx="6" cy="-4" r="5" fill="#5B7CF7"/>
+        <text x="22" y="0" fill="#cbd5e1">Lua</text>
+        <text x="832" y="0" text-anchor="end" fill="#5B7CF7" font-size="13.5">68%</text>
+        <rect x="0" y="10" width="832" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.07"/>
+        <rect x="0" y="10" width="0" height="9" rx="4.5" fill="#5B7CF7">
+          <animate attributeName="width" from="0" to="566" dur="1.5s" begin="0.7s" fill="freeze"
+                   calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1"/>
+        </rect>
+      </g>
+
+    </g>
+  </g>
+</svg>
